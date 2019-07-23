@@ -1,0 +1,74 @@
+[debug] [2019-07-23T02:36:13.624Z] ----------------------------------------------------------------------
+[debug] [2019-07-23T02:36:13.627Z] Command:       /Users/vsr/.nvm/versions/node/v8.15.1/bin/node /Users/vsr/.nvm/versions/node/v8.15.1/bin/firebase serve
+[debug] [2019-07-23T02:36:13.627Z] CLI Version:   7.1.1
+[debug] [2019-07-23T02:36:13.627Z] Platform:      darwin
+[debug] [2019-07-23T02:36:13.627Z] Node Version:  v8.15.1
+[debug] [2019-07-23T02:36:13.628Z] Time:          Tue Jul 23 2019 08:06:13 GMT+0530 (IST)
+[debug] [2019-07-23T02:36:13.628Z] ----------------------------------------------------------------------
+[debug]
+[debug] [2019-07-23T02:36:13.637Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-23T02:36:13.637Z] > authorizing via signed-in user
+[debug] [2019-07-23T02:36:13.637Z] [iam] checking project projectx for permissions ["firebase.projects.get"]
+[debug] [2019-07-23T02:36:13.639Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/projectx:testIamPermissions
+
+[debug] [2019-07-23T02:36:15.524Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-23T02:36:15.527Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/projectx
+
+[debug] [2019-07-23T02:36:16.040Z] <<< HTTP RESPONSE 200
+[info]
+[info] === Serving from '/work/projects/projectx/rep'...
+[info]
+[debug] [2019-07-23T02:36:16.046Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/projectx/webApps/-/config
+
+[info] ✔  functions: Using node@8 from host.
+[debug] [2019-07-23T02:36:16.061Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/projectx/adminSdkConfig
+
+[debug] [2019-07-23T02:36:16.446Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-23T02:36:16.599Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/work/projects/projectx/rep/functions" for Cloud Functions...
+[debug] [2019-07-23T02:36:17.025Z] [runtime-status] Functions runtime initialized. {"cwd":"/work/projects/projectx/rep/functions","node_version":"8.15.1"}
+[debug] [2019-07-23T02:36:17.026Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-07-23T02:36:17.028Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.2.0","resolution":"/work/projects/projectx/rep/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-07-23T02:36:17.028Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.1.0","resolution":"/work/projects/projectx/rep/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-07-23T02:36:17.029Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.1.0","resolution":"/work/projects/projectx/rep/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-07-23T02:36:17.072Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.2.0","resolution":"/work/projects/projectx/rep/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-07-23T02:36:17.108Z] [runtime-status] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.2.0","resolution":"/work/projects/projectx/rep/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2019-07-23T02:36:17.123Z] [default-admin-app-used]  {"databaseURL":"https://projectx.firebaseio.com","storageBucket":"projectx.appspot.com","projectId":"projectx","credential":{}}
+[debug] [2019-07-23T02:36:17.124Z] [runtime-status] Intializing default app. {"databaseURL":"https://projectx.firebaseio.com","storageBucket":"projectx.appspot.com","projectId":"projectx","credential":{}}
+[info] i  functions: HTTP trigger initialized at http://localhost:5001/projectx/us-central1/helloWorld
+[debug] [2019-07-23T02:36:24.110Z] Accepted request GET /projectx/us-central1/helloWorld --> helloWorld
+[debug] [2019-07-23T02:36:24.472Z] [runtime-status] Functions runtime initialized. {"cwd":"/work/projects/projectx/rep/functions","node_version":"8.15.1"}
+[info] i  functions: Beginning execution of "helloWorld"
+[debug] [2019-07-23T02:36:24.473Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-07-23T02:36:24.475Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.2.0","resolution":"/work/projects/projectx/rep/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-07-23T02:36:24.477Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.1.0","resolution":"/work/projects/projectx/rep/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-07-23T02:36:24.479Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.1.0","resolution":"/work/projects/projectx/rep/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-07-23T02:36:24.538Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.2.0","resolution":"/work/projects/projectx/rep/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-07-23T02:36:24.592Z] [runtime-status] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.2.0","resolution":"/work/projects/projectx/rep/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2019-07-23T02:36:24.611Z] [default-admin-app-used]  {"databaseURL":"https://projectx.firebaseio.com","storageBucket":"projectx.appspot.com","projectId":"projectx","credential":{}}
+[debug] [2019-07-23T02:36:24.613Z] [runtime-status] Intializing default app. {"databaseURL":"https://projectx.firebaseio.com","storageBucket":"projectx.appspot.com","projectId":"projectx","credential":{}}
+[debug] [2019-07-23T02:36:24.671Z] [runtime-status] Trigger "helloWorld" has been found, beginning invocation! {}
+[debug] [2019-07-23T02:36:24.671Z] [runtime-status]  {"httpsTrigger":{},"name":"helloWorld","entryPoint":"helloWorld"}
+[debug] [2019-07-23T02:36:24.671Z] [runtime-status] Running helloWorld in mode HTTPS {}
+[debug] [2019-07-23T02:36:24.685Z] {"socketPath":"/var/folders/rm/b4khrmlj08v2r_3z_71qr__h0000gn/T/firebase_emulator_invocation_5631.sock"}
+[debug] [2019-07-23T02:36:24.688Z] [functions] Runtime ready! Sending request! {"socketPath":"/var/folders/rm/b4khrmlj08v2r_3z_71qr__h0000gn/T/firebase_emulator_invocation_5631.sock"}
+[debug] [2019-07-23T02:36:24.722Z] [runtime-status] Ephemeral server used! {}
+[info] >  [object Promise]
+[debug] [2019-07-23T02:36:25.068Z] [runtime-status] Ephemeral server survived. {}
+[info] >  (node:5631) UnhandledPromiseRejectionWarning: Error: The incoming JSON object does not contain a client_email field
+[info] >      at JWT.fromJSON (/work/projects/projectx/rep/functions/node_modules/google-auth-library/build/src/auth/jwtclient.js:165:19)
+[info] >      at GoogleAuth.fromJSON (/work/projects/projectx/rep/functions/node_modules/google-auth-library/build/src/auth/googleauth.js:294:16)
+[info] >      at GoogleAuth.getClient (/work/projects/projectx/rep/functions/node_modules/google-auth-library/build/src/auth/googleauth.js:476:52)
+[info] >      at GrpcClient._getCredentials (/work/projects/projectx/rep/functions/node_modules/google-gax/build/src/grpc.js:107:40)
+[info] >      at GrpcClient.createStub (/work/projects/projectx/rep/functions/node_modules/google-gax/build/src/grpc.js:223:34)
+[info] >      at new FirestoreClient (/work/projects/projectx/rep/functions/node_modules/@google-cloud/firestore/build/src/v1/firestore_client.js:128:39)
+[info] >      at ClientPool.Firestore._clientPool.pool_1.ClientPool [as clientFactory] (/work/projects/projectx/rep/functions/node_modules/@google-cloud/firestore/build/src/index.js:315:26)
+[info] >      at ClientPool.acquire (/work/projects/projectx/rep/functions/node_modules/@google-cloud/firestore/build/src/pool.js:61:35)
+[info] >      at ClientPool.run (/work/projects/projectx/rep/functions/node_modules/@google-cloud/firestore/build/src/pool.js:114:29)
+[info] >      at Firestore.request (/work/projects/projectx/rep/functions/node_modules/@google-cloud/firestore/build/src/index.js:957:33)
+[info] >  (node:5631) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+[info] >  (node:5631) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[info] i  functions: Finished "helloWorld" in ~1s
